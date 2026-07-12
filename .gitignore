@@ -23,3 +23,13 @@ vendor/
 .idea/
 .vscode/
 *.log
+
+# 环境配置文件（含密钥，禁止入库；仅保留 .example/.sample/.template 模板）
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# 超大文件（超过 GitHub 推荐 50MB，建议改走 Git LFS，避免污染普通 clone）
+*.gif
