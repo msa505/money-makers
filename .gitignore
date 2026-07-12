@@ -1,0 +1,25 @@
+# 依赖 / 构建产物（各项目统一忽略，避免污染仓库）
+node_modules/
+dist/
+build/
+.next/
+out/
+__pycache__/
+*.pyc
+.venv/
+venv/
+target/
+vendor/
+
+# 大文件 / 模型权重（如含模型建议走 Git LFS 或单独存放）
+*.bin
+*.onnx
+*.gguf
+*.pt
+*.ckpt
+
+# 系统 / 编辑器
+.DS_Store
+.idea/
+.vscode/
+*.log
