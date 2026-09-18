@@ -21,7 +21,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "anyio>=4.0.0",
+    "anyio>=4.14.2",
     "datamodel-code-generator[ruff]>=0.26.0",
     "pytest>=8.0.0",
     "pyright>=1.1.408",
